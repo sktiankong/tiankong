@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>第一节课练习</title>
+	</head>
+	<body>
+
+		<p>文字段落</p>
+
+		<h1>h1</h1>
+		<h2>h2</h2>
+		<h3>h3</h3>
+		<h4>h4</h4>
+		<h5>h5</h5>
+		<h6>h6</h6>
+
+		1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;3 4 5
+
+		<br />
+
+		<b>加粗b</b>
+		<strong> 加粗strong </strong>
+		<em>em倾斜</em> <i>i倾斜</i>
+
+		<hr>
+
+		<ul>
+			<li>li</li>
+			<li>li</li>
+			<li>li</li>
+		</ul>
+
+		<ol>
+			<li>ol</li>
+			<li>ol</li>
+			<li>ol</li>
+		</ol>
+
+		<dl>
+			<dt>dt</dt>
+			<dd>dd</dd>
+			<dd>dd</dd>
+		</dl>
+
+		<img src="../image02.jpeg" width="30" height="30" alt="alt" title="title">
+
+		<a href="https://baidu.com" alt="seo优化" title="title" target="_blank">超链接</a>
+
+
+		<table width="30" height="40" border="1" bordercolor="red" bgcolor="antiquewhite" cellspacing="30" cellpadding="5">
+			<tr>
+				<th colspan="2">th</th>
+				<th>th1</th>
+			</tr>
+			<tr>
+				<td>td</td>
+				<td>td1</td>
+			</tr>
+		</table>
+
+		<!-- rowspan="2" -->
+		<table border="1" bordercolor="red">
+			<caption>表格标题</caption>
+			<thead>
+				<tr>
+					<th>编号</th>
+					<th>姓名</th>
+					<th>性别</th>
+					<th>年龄</th>
+				</tr>
+				<thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>whj</td>
+						<td>美女</td>
+						<td>16</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>whj</td>
+						<td>美女</td>
+						<td>16</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>whj</td>
+						<td>美女</td>
+						<td>16</td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>whj</td>
+						<td>美女</td>
+						<td>16</td>
+					</tr>
+
+
+				</tbody>
+			<tfoot>
+				<tr>
+					<td>2</td>
+					<td>张三</td>
+					<td>男</td>
+					<td>18</td>
+				</tr>
+			</tfoot>
+		</table>
+
+
+		<table border="1" cellspacing="0" width="50%" height="150">
+			<caption>横向合并单元格</caption>
+			<!--colspan中必须指定要合并的列数目，是两列还是三列等等-->
+			<tr>
+				<th colspan="2">姓名和年龄</th>
+				<th>电话</th>
+			</tr>
+			<tr>
+				<td>Jack</td>
+				<td>24</td>
+				<td>1351234567</td>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>22</td>
+				<td>1351234567</td>
+			</tr>
+			<tr>
+				<td>Rose</td>
+				<td>22</td>
+				<td>1351234567</td>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>25</td>
+				<td>1351234567</td>
+			</tr>
+		</table>
+		<br />
+
+
+		<table border="1" cellspacing="0"a width="50%" height="150">
+			<caption>纵向合并单元格</caption>
+			<tr>
+				<th>班级</t>
+				<th>姓名</th>
+				<th>年龄</th>
+				<th>电话</th>
+			</tr>
+			<tr>
+				<td rowspan="2">601班</td>
+				<td>Jack</td>
+				<td>24</td>
+				<td>1351234567</td>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>22</td>
+				<td>1351234567</td>
+			</tr>
+			<!--rowspan中必须指定要合并的列数目，是两行还是三行等等-->
+			<tr>
+				<td rowspan="3">602班</td>
+				<td>Rose</td>
+				<td>22</td>
+				<td>1351234567</td>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>25</td>
+				<td>1351234567</td>
+			</tr>
+			<tr>
+				<td>李四</td>
+				<td>25</td>
+				<td>1351234567</td>
+			</tr>
+		</table>
+
+		<form>
+			<fieldset>
+				<legend>健康信息</legend>
+				身高：<input type="text" />
+				体重：<input type="text" />
+			</fieldset>
+		</form>
+
+
+
+		<form action="http://baidu.com" method="get" name="login-form" target="_blank">
+			名：
+			<input type="text" name="firstname">
+			<br />
+			姓：
+			<input type="text" name="lastname">
+			<br />
+			密码:
+			<input type="password" />
+			<br />
+			提交按钮
+			<input type="submit" value="提交" />
+			<br />
+			重置按钮
+			<input type="reset" value="reset" />
+
+		</form>
+
+		<br />
+
+		<textarea rows="3" cols="20">
+			在w3school，你可以找到你所需要的所有的网站建设教程。
+		</textarea>
+
+
+		<form>
+			<label for="male">Male</label>
+			<input type="radio" name="sex" id="male" />
+			<br />
+			<label for="female">Female</label>
+			<input type="radio" name="sex" id="female" />
+		</form>
+
+
+		<form>
+			<label for="male">Male</label>
+			<input type="radio" name="sex" id="male" />
+			<br />
+			<label for="female">Female</label>
+			<input type="radio" name="sex" id="female" />
+		</form>
+
+		<form name="input" action="/html/html_form_action.asp" method="get">
+			I have a bike:
+			<input type="checkbox" name="vehicle" value="Bike" checked="checked" />
+			<br />
+			I have a car:
+			<input type="checkbox" name="vehicle" value="Car" />
+			<br />
+			I have an airplane:
+			<input type="checkbox" name="vehicle" value="Airplane" />
+			<br /><br />
+			<input type="submit" value="Submit" />
+		</form>
+
+		<form>
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="fiat" selected="selected">Fiat</option>
+				<option value="audi">Audi</option>
+			</select>
+		</form>
+
+
+
+
+
+
+
+
+
+
+	</body>
+</html>

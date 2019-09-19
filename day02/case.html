@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>day01案例</title>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+	
+	标题:  
+			<h1>h1</h1>
+			<h2>h2</h2>
+			<h3>h3</h3>
+			<h4>h4</h4>
+			<h5>h5</h5>
+			<h6>h6</h6>
+			
+	无序列表:
+			<ul>
+				<li>
+					无序列表1
+				</li>
+				<li>
+					无序列表2
+				</li>
+				<li>
+					无序列表3
+				</li>
+			</ul>
+	
+	有序列表:
+			<ol>
+				<li>
+					有序列表1
+				</li>
+				<li>
+					有序列表2
+				</li>
+				<li>
+					有序列表3
+				</li>
+			</ol>
+	
+	自定义列表：
+			<dl>
+				<dt>列表标题</dt>
+				<dd>列表内容</dd>
+				<dd>列表内容</dd>
+			</dl> 
+	
+	图片：
+	    <br />
+		相对路径
+			<br />
+			<img src="./image01.png" width="80" height="80" "不能加载显示" title="图片标题1" />
+			<br />
+			<img src="../image02.jpeg" width="80" height="80" alt="不能加载显示" title="图片标题2" />
+			<br />
+		绝对路径
+			<br />
+			<img width="80" height="80" src="http://127.0.0.1:8848/jiyunWork/201909/day01/image01.png" alt="不能加载显示" title="图片标题1" />
+	<br />
+	
+	超链接
+		<a href="http://baidu.com">跳转到百度</a>
+		<a href="http://baidu.com" target="_blank">跳转到百度</a>
+	<br />	
+	表格
+	<table>
+		<caption>
+			表格标题1
+		</caption>
+		
+		<thead>
+			<tr>
+				 <th>编号</th>
+			     <th>姓名</th>
+			     <th>性别</th>
+				 <th>年龄</th>
+			</tr>
+			
+		</thead>
+		
+		<tbody>
+			<tr>
+				 <td>1</td>
+			     <td>帅哥</td>
+			     <td>男</td>
+				 <td>18</td>
+			</tr>
+			
+		</tbody>
+		
+		<tfoot>
+			<tr>
+				 <td>2</td>
+			     <td>张三</td>
+			     <td>男</td>
+				 <td>37</td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	<table width="400" height="300" border="1" bordercolor="red" bgcolor="blue" cellspacing="5" cellpadding="10" align="left" valign="bottom">
+		<caption>表格标题2</caption>
+		<tr>
+			<th>th1</th>
+			<th>th2</th>
+			<th>th3</th>
+		</tr>
+		<tr>
+			<td>td1</td>
+			<td>td2</td>
+			<td>td3</td>
+		</tr>
+		<tr>
+			<td>td4</td>
+			<td>td5</td>
+			<td>td6</td>
+		</tr>
+		
+		
+	</table>
+	
+	
+	
+	<br />
+	<div style="clear:both;"></div>
+	
+	表单：
+	
+	文本：
+	<br />
+	<form>
+	  <fieldset>
+	    <legend>健康信息</legend>
+	    身高：<input type="text" />
+	    体重：<input type="text" />
+	  </fieldset>
+	</form>
+	<br />
+	
+	<form action="http://baidu.com">
+		First name:<br>
+		<input type="text" name="firstname" value="whj">
+		<br>
+		Last name:<br>
+		<input type="text" name="lastname" value="cce">
+		<br><br>
+		<input type="submit" value="Submit">
+	</form> 
+	
+	<br />
+	
+	密码：
+	<form>
+			用户：
+			<input type="text" name="user">
+			<br />
+			密码：
+			<input type="password" name="password">
+	</form>
+	
+	<br />
+	
+	下拉列表：
+	
+	<form>
+		<select name="number">
+			<option value="001">001</option>
+			<option value="002">002</option>
+			<option value="003" selected="selected">003</option>
+			<option value="004">004</option>
+		</select>
+	</form>
+	
+	<br />
+	
+	<form>
+		<input type="button" value="登录">
+	</form>
+	
+	<br />
+	
+	
+	<form>
+		<label for="male">Male</label>
+		<input type="radio" name="sex" id="male" />
+		<br />
+		<label for="female">Female</label>
+		<input type="radio" name="sex" id="female" />
+	</form>
+	
+	
+	<br />
+	
+	复选框提交：
+	
+	<form name="input" action="http://baidu.com" method="get">
+		I have a bike:
+		<input type="checkbox" name="vehicle" value="Bike" checked="checked" />
+		<br />
+		I have a car: 
+		<input type="checkbox" name="vehicle" value="Car" />
+		<br />
+		I have an airplane: 
+		<input type="checkbox" name="vehicle" value="Airplane" />
+		<br />
+		<input type="submit" value="Submit" />
+	</form> 
+
+	<br />
+	
+	<form action="/demo/demo_form.asp">
+		First name:<br />
+		<input type="text" name="firstname" value="Mickey">
+		<br>
+		Last name:<br />
+		<input type="text" name="lastname" value="Mouse">
+		<br />
+		<input type="submit" value="Submit">
+	</form>
+	
+		
+	</body>
+</html>
